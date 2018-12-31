@@ -1,5 +1,10 @@
-# The-Chatbot-Project
+# Chatbot-from-Movie-Dialogue
 
-In this project, we will build a chatbot using conversations from Cornell University's Movie Dialogue Corpus. The main features of our model are LSTM cells, a bidirectional dynamic RNN, and decoders with attention.
-The conversations will be cleaned rather extensively to help the model to produce better responses. As part of the cleaning process, punctuation will be removed, rare words will be replaced with "UNK" (our "unknown" token), longer sentences will not be used, and all letters will be in the lowercase.
-Right now our focus is on building a simple conversational chatbot and later hope to extend its functionalities and use it as a Q/A chatbot for Internity.
+I built a simple chatbot using conversations from Cornell University's [Movie Dialogue Corpus](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html). The main features of our model are LSTM cells, a bidirectional dynamic RNN, and decoders with attention. 
+
+If you would like to learn a bit more about the details of this project, especially the sequence-to-sequence portion, I wrote an [article](https://medium.com/@Currie32/how-to-build-your-first-chatbot-c84495d4622d) about this.
+
+movie_conversations.txt.zip contains the indexes for the lines of each conversation.
+movie_lines.txt.zip contains the lines spoken by the characters.
+
+To view my work most easily, click on the .ipynb file.
